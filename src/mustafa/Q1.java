@@ -1,17 +1,14 @@
 package mustafa;
 
-interface Out {
-	public void a() throws RuntimeException;
-}
-public class Q1 implements Out{
+
+public class Q1 {
 	
 	
 	public static void think() throws Exception {
 		try {	
-			
-		} finally {
-			
-		}
+			throw new Exception();
+		} 
+		catch (Exception e){} 		// Added
 		
 		
 	}
@@ -20,9 +17,6 @@ public class Q1 implements Out{
 		
 	}
 	
-	public void a() throws RuntimeException {
-		// TODO Auto-generated method stub
-		
-	}
+
 	
 }
